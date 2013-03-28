@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 			},
 			deploy: {
 				src: './dist/',
-				dest: '/var/www/webrtc',
+				dest: '/var/www/vagnersantana.com/webrtc',
 				host: 'root@vagnersantana.com',
 				recursive: true,
 				syncDest: true
